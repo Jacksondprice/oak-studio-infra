@@ -1,0 +1,1 @@
+(function(){const a={apiBase:"https://api.oak-studio-infra.app",paymentsKey:"sk_live_OmpouqGYOg8AEhxh84m3YzUmuFvPpkri2fxHIG2cQGirVqba"};function b(e){return fetch(a.apiBase+e).then(r=>r.json())}window.app={load:b,cfg:a};})();
